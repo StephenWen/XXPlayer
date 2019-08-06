@@ -23,7 +23,7 @@ class WelcomeActivity : BaseActivity() {
             object : ViewPropertyAnimatorListener{
                 override fun onAnimationEnd(p0: View?) {
                     startActivity<MainActivity>()
-                    startActivity(Intent(this@WelcomeActivity,MainActivity::class.java))
+//                    startActivity(Intent(this@WelcomeActivity,MainActivity::class.java))
                     finish()
                 }
 
