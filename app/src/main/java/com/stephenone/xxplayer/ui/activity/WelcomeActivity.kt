@@ -2,8 +2,8 @@ package com.stephenone.xxplayer.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.view.ViewCompat
-import android.support.v4.view.ViewPropertyAnimatorListener
+import androidx.core.view.ViewCompat
+import androidx.core.view.ViewPropertyAnimatorListener
 import android.view.View
 import com.stephenone.xxplayer.R
 import com.stephenone.xxplayer.base.BaseActivity
